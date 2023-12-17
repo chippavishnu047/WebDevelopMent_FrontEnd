@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloatAndClear</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .container
+        {
+            background-color: rgb(241, 171, 241);
+            border: 1px solid rgb(18, 18, 156);
+            margin: auto;
+            width: 900px;
+        }
+        .item
+        {
+            background-color: blanchedalmond;
+            border:1px solid rgb(114, 93, 93);
+            margin: 12px 3px;
+            padding: 12px 3px;
+        }
+        #fruit
+        {
+            float: left;
+            width: 48%;
+        }
+        #computer
+        {
+            width: 48%;
+            float: right;
+        }
+        #stationary
+        {
+            /*width: 48%;*/
+            clear: both;
+        }
+        h1{
+            
+           text-align: center;
+           margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Float and Clear Tutorial</h1>
+    <div class="container">
+        <h1>MY SHOP</h1>
+        <div class="item" id="fruit">
+            <h1>Fruit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid non iste quo sunt eligendi harum vel consequuntur, repellat excepturi corporis esse quibusdam.</p>
+        </div>
+        <div class="item" id="computer">
+            <h1>computer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid non iste quo sunt eligendi harum vel consequuntur, repellat excepturi corporis esse quibusdam.</p>
+        </div>
+        <div class="item" id="stationary">
+            <h1>stationary</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid non iste quo sunt eligendi harum vel consequuntur, repellat excepturi corporis esse quibusdam.</p>
+        </div>
+    </div>
+</body>
+</html>

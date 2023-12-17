@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoSelectors</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        .container
+        {
+            background-color: aquamarine;
+            border: 1px solid black;
+            width: 70%;
+            margin: 10px auto;
+            padding: 10px 13px;
+        }
+        #cont1{
+            padding:5px;
+            margin: auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn
+        {
+            background-color:rgb(220, 57, 79);
+            color: white;
+            font-size: small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            cursor: pointer ;
+            margin: auto;
+            border: 2px solid rgb(242, 184, 184);
+            border-radius: 5px;
+        }
+        a:hover{
+            background-color: blue;
+            color: aqua;
+        }
+        a:active
+        {
+            background-color: red;
+            color: whitesmoke;
+        }
+        a:visited{
+            background-color: bisque;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PseudoSelectors Tutorial</h1>
+        <p class="cont" id="cont1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos possimus doloremque nihil repellendus minima laudantium eum. Expedita perspiciatis temporibus facere fugiat non quasi accusantium aut odit ipsum. Ipsum id tenetur libero autem?
+        </p>
+        <a href="https.google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

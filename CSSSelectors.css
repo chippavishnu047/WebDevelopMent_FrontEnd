@@ -1,0 +1,30 @@
+.myback
+{
+    background-color: aquamarine;
+    color: red;
+    border: 1px solid rgb(51, 46, 46);
+}
+#RedBg
+{
+ 
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+}
+#Bluebg
+{
+    border: 1px solid rgb(9, 168, 115);
+    background-color: blue;
+    color: yellow;
+}
+h6{
+    background-color: blue;
+    color: white;
+    border: 5px solid aquamarine;
+}
+h1
+{
+    color: white;
+    background-color: blue;
+    border: 5px solid aquamarine;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag is used to rank websites,it gives info about website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="this is description of website">
+    <meta name="robots" content="follow,index">
+    <meta name="keywords" content="html,html tutorials">
+    <!-- this is used to inlcude external css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- this is used to include external js -->
+    <script src="javascript.js"></script>
+    <title>Basics</title>
+</head>
+<body>
+    hello world
+    hello world
+    hello world
+    hello world
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam nulla impedit magni quos provident dolorum accusamus, hic, quas autem sint dicta, architecto optio libero necessitatibus tempora numquam voluptatibus aut.</p>
+    <table border="1px solid black" border-collapse:"collapse" align="center">
+        <caption >Employee Details</caption>
+        <thead>
+            <tr>
+                <th>EmployeeId</th>
+                <th>Name</th>
+                <th>EmployeeRole</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>vishnu</td>
+                <td>Manager</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bunny</td>
+                <td>HR</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="backend.php">
+        <div>
+           <label for="name">Name:</label> 
+            <input type="text" name="mytext" id="name" placeholder="Enter your Name">
+        </div>
+        <div>
+            <label for="mail">Email:</label><input type="mail" name="myMail" id="mail" placeholder="abc@example.com">
+        </div>
+        <div>
+            Number: <input type="number" name="myNumber" id="">
+        </div>
+        <div>
+            Date: <input type="date" name="myDate" id="">
+        </div>
+        <div>
+            Are you Eligible? <input type="checkbox" name="myBox" id="">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="myGender" id="">
+                    Female<input type="radio" name="myGender" id="">
+                    Others <input type="radio" name="myGender" id="">
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind" selected>indica</option>
+                <option value="swf">swift</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="submit Now">
+            <input type="reset" value="reset Now">
+        </div>
+    </form>
+</body>
+</html>
