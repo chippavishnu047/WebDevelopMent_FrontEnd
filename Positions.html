@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions Tutorial</title>
+    <style>
+        .box
+        {
+            border: 2px solid red;
+            /*background-color: rgb(196, 207, 208);*/
+            width: 150px;
+            height: 150px;
+            margin: 2px ;
+            display: inline-block;
+            text-align: center;
+        }
+        .container
+        {
+            background-color: rgb(244, 129, 129);
+            border: 2px solid black;
+            height: 2000px;
+        }
+        #box3
+        {
+            position: sticky;
+            top: 2px;
+         
+        }
+        /*
+        Position:static(default),absolute,relative,fixed,sticky
+        absolute-position of the element relative to parent element
+        relative-position of the element relative to normal order
+        fixed-position of the element relative to container but it stays there even u scroll and it is used when u write a chat window
+        sticky-position of the element relative to container but it stays at top even u scroll and it is used when u write a menu
+
+
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">ChatWindow   </div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
