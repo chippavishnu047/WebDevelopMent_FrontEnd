@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeStyle_Gym</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header {
+            position: sticky;
+            top: 2px;
+        }
+
+        body {
+            height: 4000px;
+        }
+
+        .navbar {
+            border: 4px solid blue;
+            height: 60px;
+        }
+
+        .left {
+            display: inline-block;
+            width: 10%;
+            /*border: 1px solid black;*/
+            position: absolute;
+
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            /*border: 1px solid red;*/
+            position: relative;
+            margin: auto;
+            top: 15px;
+            padding: 5px;
+
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            width: 16%;
+            /*border: 1px solid yellow;*/
+            right: 45px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 35%;
+            margin: 5px;
+            display: block;
+        }
+
+        .left h6 {
+            line-height: 6px;
+            color: rgb(63, 63, 132);
+        }
+
+        .mid li a {
+            text-decoration: none;
+        }
+
+        .mid ul li {
+            list-style: none;
+            display: inline;
+            padding: 10px;
+        }
+
+        .btn {
+            padding: 4px;
+            width: 100px;
+            background-color: rgb(141, 182, 182);
+            cursor: pointer;
+            border-radius: 5px;
+            border: 2px solid rgb(106, 119, 124);
+            margin: 0px auto;
+        }
+
+        .btn:hover {
+            background-color: rgb(171, 187, 187);
+            border: 2px solid red;
+
+        }
+
+        .mid ul li a:hover,
+        .mid ul li a.active {
+            text-decoration: underline;
+            color: rgb(6, 6, 6);
+        }
+
+        .container {
+            top: 4px;
+            background-color: azure;
+            border: 1px solid rgb(255, 76, 761);
+            width: 40%;
+            margin: 7px auto;
+            border-radius: 10px;
+            padding-bottom: 10px;
+        }
+
+        .text {
+            display: block;
+            width: 33%;
+            margin: 3px auto;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .buttons {
+            align-items: center;
+            display: block;
+            width: 35%;
+            margin: 0px auto;
+            /*border: 2px solid yellow;*/
+
+            padding-left: 60px;
+        }
+
+        .buttons input {
+            padding-left: 5px;
+            width: 65px;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <img src="rgukt logo.jpeg" alt="RGUKT image">
+                <h6>RGUKT Gym</h6>
+            </div>
+            <div class="mid">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Login</button>
+                <button class="btn">Email</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h3>Join our Gym and Become a fitness Freak</h3>
+        <div class="form-group">
+            <form action="noaction.php" class="noaction">
+                <input type="text" class="text" placeholder="Enter Your Name">
+                <input type="text" class="text" placeholder="Enter Your Age">
+                <input type="text" class="text" placeholder="Enter Your Mobile">
+                <input type="text" class="text" placeholder="Enter Your City">
+                <div class="buttons">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
