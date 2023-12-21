@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Units and Media Queries Tutorial</title>
+    <style>
+        .box{
+            background-color: aquamarine;
+            border: 1px solid rgb(61, 59, 59);
+            margin: 2px;
+            display: none;
+            text-align: center;
+            font-size: 20px;
+        }
+        @media (min-width:0px) and (max-width:400px)
+        {
+            #box1
+            {
+                display: block;
+                background-color: black;
+                color: white;
+                width: 100%;
+                height: 200px;
+                font-size: 3em;
+            }
+        }
+        @media (min-width:400px) and (max-width:800px)
+        {
+            #box2
+            {
+                display: block;
+                background-color:red ;
+                color: white;
+                width: 100%;
+                height: 200px;
+                font-size: 3em;
+            }
+        }
+        @media (min-width:800px) and (max-width:1200px)
+        {
+            #box3
+            {
+                display: block;
+                background-color: blueviolet;
+                color: white;
+                width: 100%;
+                height: 200px;
+                font-size: 3em;
+            }
+        }
+        @media (min-width:1200px)
+        {
+            #box4
+            {
+                display: block;
+                background-color: brown;
+                color: wheat;
+                width: 100%;
+                height: 200px;
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">This is Mobile</div>
+        <div class="box" id="box2">This is Tablet</div>
+        <div class="box" id="box3">This is Desktop</div>
+        <div class="box" id="box4">This is WideScreen</div>
+    </div>
+</body>
+</html>
