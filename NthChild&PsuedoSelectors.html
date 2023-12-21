@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth child and psuedo Selectors Tutorial</title>
+    <style>
+        .container
+        {
+            background-color: cyan;
+            border: 2px solid black;
+        }
+        .form-group input
+        {
+            background-color: blue;
+            color: white;
+            border: 2px solid red;
+            display: block;
+            width: 30%;
+            margin: auto;
+            padding: 5px;
+            margin: 2px auto;
+        }
+        .form-group input[type='text']
+        {
+            color: black;
+            background-color: antiquewhite;
+            border: 1px solid yellow;
+            border-radius: 5pc;
+        }
+        .form-group input[type='submit']
+        {
+            color: wheat;
+            border: 2px solid blueviolet;
+            background-color: brown;
+        }
+        /*nth child is used for applying CSS Property to nth list item*/
+        .list li:nth-child(even)
+        {
+            background-color: aquamarine;
+            border: 3px solid purple;
+        }
+        .list li:nth-child(odd)
+        {
+            color: white;
+        }
+        a[target]
+        {
+            background-color: aliceblue;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Nth child and Pseudo Selectors Tutorial</h1>
+        <form action="noactio.php" class="form-group">
+            <input type="text" class="text" placeholder="Enter Your Name">
+            <input type="password" class="text" placeholder="Enter Your Password">
+            <input type="email" class="email" placeholder="Enter Your Email">
+            <input type="submit" value="submit">
+        </form>
+        <ul class="list">
+            <li class="item" id="item1">Item1</li>
+            <li class="item" id="item2">Item2</li>
+            <li class="item" id="item3">Item3</li>
+            <li class="item" id="item4">Item4</li>
+            <li class="item" id="item5">Item5</li>
+            <li class="item" id="item6">Item6</li>
+            <li class="item" id="item7">Item</li>
+            <li class="item" id="item8">Item8</li>
+            <li class="item" id="item9">Item9</li>
+            <li class="item" id="item10">Item10</li>
+
+        </ul>
+        <div class="other">
+            <a href="http://www.google.com" taget="_blank">Goto Google</a>
+            <a href="http://www.facebook.com"taget="_blank">Goto FaceBook</a>
+        </div>
+    </div>
+</body>
+</html>
