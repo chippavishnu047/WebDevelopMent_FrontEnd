@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other CSS Selectors Tutorial</title>
+    <style>
+        div p{
+            color: black;
+        }
+        div > p /*> is used for the element specified present in it */
+        {
+            color: yellow;
+            background-color: brown;
+        }
+        .container
+        {
+            background-color: blueviolet;
+            border: 2px solid red;
+            color: white;
+        }
+        div + p{/* + is used for specifying right next element or sibling of that div*/
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Other CSS Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p>This is a ParaGraph in the row Div.</p>
+        </div>
+        <p>this is a paragraph in the container div and outside the row div</p>
+    </div>
+    <p>This is also a paragraph outside the div container</p>
+    <div class="container1">
+        <div class="row">
+            <p>This is a ParaGraph in the row Div.</p>
+        </div>
+        <p>this is a paragraph in the container div and outside the row div</p>
+    </div>
+    <p>This is also a paragraph outside the div container</p>
+</body>
+</html>
