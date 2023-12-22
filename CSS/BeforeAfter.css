@@ -13,12 +13,25 @@
             margin: 0;
             padding: 0;
         }
-        body
+        header::before
         {
             background-image: url('/img/rgukt.jpeg');
+            content: "";
+            z-index: -2  ;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+             opacity: 0.5; /*opacity will make image light */
+        }
+        body
+        {
             background-repeat: no-repeat;
             background-size: cover;
             /*background-position:10%;*/
+            background-color: black;
+            color: white;
             z-index: -1; /* z-index is used to set image up or down*/
             opacity: 100%;/*opacity is used to make text visible */
         }
