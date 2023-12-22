@@ -1,0 +1,59 @@
+/* .navbar
+        {
+            background-color: blue;
+        }
+        .navbar ul li
+        {
+            list-style: none;
+            display: inline;
+            padding: 2px 10px;
+        } */
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-image: url('/img/rgukt.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*background-position:10%;*/
+            z-index: -1; /* z-index is used to set image up or down*/
+            opacity: 100%;/*opacity is used to make text visible */
+        }
+        .list
+        {
+            /*background-color: blue;*/
+            display: flex;
+        }  
+        .list li
+        {
+            list-style: none;
+            padding: 10px;
+        }  
+        section
+        {
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            height: 30vh;
+        } 
+        section h1
+        {
+            margin: 5px;
+        }
+        section p{
+            text-align: center;
+        }
+        section::before
+        {
+            content: 'this is before';
+        }
+        section::after
+        {
+            content:'this is after'
+        }
