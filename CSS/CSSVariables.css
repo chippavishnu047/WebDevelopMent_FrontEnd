@@ -10,9 +10,13 @@
             ex:background-color:var(--variable_name);
         }
         */
-        .container
+        :root
         {
             --variable:brown;
+        }
+        .container
+        {
+            /* --variable:brown; */
             background-color: var(--variable);
 
             max-width: 900px;
