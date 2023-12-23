@@ -1,0 +1,33 @@
+/*CSS variable are like same other programming languages variables but they didn't show any error and 
+        there are 2 ways in declaring css variables
+        1.Global Declaration
+        :root{
+         --variable_name:property;   this type of declaration is for global declaration
+        }
+        2.Local Declaration(with in the target variable is declared and used any no.of times)
+        {
+            --varialbe_name:property;
+            ex:background-color:var(--variable_name);
+        }
+        */
+        .container
+        {
+            --variable:brown;
+            background-color: var(--variable);
+
+            max-width: 900px;
+            border: 2px solid black;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+            background-color: rgb(79, 206, 215);
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 2px 4px;
+            text-align: center;
+        }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/CSSVariables.css">
+    <title>CSS variables/CSS Properties</title>
+    <!-- <style>
+        /*CSS variable are like same other programming languages variables but they didn't show any error and 
+        there are 2 ways in declaring css variables
+        1.Global Declaration
+        :root{
+         --variable_name:property;   this type of declaration is for global declaration
+        }
+        2.Local Declaration(with in the target variable is declared and used any no.of times)
+        {
+            --varialbe_name:property;
+            ex:background-color:var(--variable_name);
+        }
+        */
+        .container
+        {
+            --variable:brown;
+            background-color: var(--variable);
+
+            max-width: 900px;
+            border: 2px solid black;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+            background-color: rgb(79, 206, 215);
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            margin: 2px 4px;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Box1</div>
+        <div class="box" id="box2">Box2</div>
+        <div class="box" id="box3">Box3</div>
+    </div>
+</body>
+</html>
