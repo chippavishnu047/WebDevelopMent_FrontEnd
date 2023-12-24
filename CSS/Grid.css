@@ -1,0 +1,20 @@
+.container
+{
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: 300px 100px 100px; */
+    /* grid-template-columns: 1fr 5fr 1fr; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* if you want to get 10 columns 
+    grid-template-columns:repeat(no_of_columns,pixels);*/
+    grid-template-columns: repeat(10,120px);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1rem;
+}
+.item
+{
+    background-color: #eae9e9;
+    border: 2px solid blue;
+    margin: 5px;
+}
