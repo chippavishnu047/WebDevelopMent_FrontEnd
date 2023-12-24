@@ -1,0 +1,25 @@
+.box
+{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease in;
+    transition-delay: .5s;
+    /* short hand notation for transition */
+    /* transition: transition-property transition-duration transition-timing-function transition-delay; */
+
+}
+.box:hover
+{
+    height: 400px;
+    width: 400px;
+    background-color: yellowgreen;
+    color: white;
+
+}
