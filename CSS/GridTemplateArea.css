@@ -1,0 +1,44 @@
+.container
+{
+    background-color: azure;
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'section section aside'
+    'footer footer footer';
+
+}
+#navbar .list
+{
+    list-style: none;
+    display: flex;
+}
+#navbar .list li
+{
+    padding: 10px;
+
+}
+.item
+{
+    background-color: rgb(232, 222, 222);   
+    border: 2px solid greenyellow;
+}
+
+#navbar
+{
+    grid-area: navbar;
+}
+#section
+{
+    grid-area: section;
+}
+#aside
+{
+    grid-area: aside;
+}
+footer
+{
+    grid-area: footer;
+}
