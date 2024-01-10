@@ -1,0 +1,1 @@
+console.log('this is from written in external file');
