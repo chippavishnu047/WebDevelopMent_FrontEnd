@@ -16,7 +16,7 @@ console.log(`Length of String3 is ${len}`);
 // you can write html code via js also
 // document.getElementById('content').innerHTML=' <h1> this is h1 heading </h1> ';
 //String Mehtods
-var s="String";
+var s="This is a String";
 console.log(s);
 //slice,substring method takes parameters as starting index to end index
 console.log(s.substring(1,5));
@@ -28,3 +28,7 @@ console.log(s.toUpperCase());
 console.log(s.toLowerCase());
 console.log(s.charAt(3));
 console.log(s.charCodeAt('A'));
+console.log(s.indexOf('is'));
+console.log(s.lastIndexOf('is'));
+console.log(s.replace('String',"sonu"));
+console.log(s.concat(' New String'));
