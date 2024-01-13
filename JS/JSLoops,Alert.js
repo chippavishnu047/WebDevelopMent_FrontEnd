@@ -21,28 +21,40 @@
 
 
 //loops(for,forEach,forof,forin(objects),while,dowhile)
-let i=0;
-for(i=0;i<5;i++)
-    console.log(i);
+// let i=0;
+// for(i=0;i<5;i++)
+//     console.log(i);
 
 
-let friends=["Hari","madhu","vishnu","Bunny","sonu","Chotu"];
-friends.forEach(function names(element)
-{
-    console.log(`${element} Good Morning`);
-});
+// let friends=["Hari","madhu","vishnu","Bunny","sonu","Chotu"];
+// friends.forEach(function names(element)
+// {
+//     console.log(`${element} Good Morning`);
+// });
 
-for(element of friends)
-{
-    console.log(element);
-}
+// for(element of friends)
+// {
+//     console.log(element);
+// }
 
-let biodata={
-    name:"vishnu",
-    age:22,
-    salary:20
-}
-for(key in biodata)
-{
-    console.log(`${key} of the emplyee is ${biodata[key]}`);
-}
+// let biodata={
+//     name:"vishnu",
+//     age:22,
+//     salary:20
+// }
+// for(key in biodata)
+// {
+//     console.log(`${key} of the emplyee is ${biodata[key]}`);
+// }
+
+
+//DOM
+
+let nav=document.getElementById('nav');
+console.log(nav);
+let container=document.getElementsByClassName('head3');
+console.log(container);
+
+
+let i=document.querySelector('#nav');
+console.log(i);
