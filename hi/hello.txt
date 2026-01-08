@@ -1,0 +1,9 @@
+hi
+hello , i've been created by terminal commands
+using
+touch-create a file
+mkdir-create a folder
+nano-to edit a file
+
+
+
